@@ -1,0 +1,1 @@
+var text=$(".split"),split=new SplitText(text);function random(t,a){return Math.random()*(a-t)+t}$(split.chars).each(function(t){TweenMax.from($(this),2.5,{opacity:0,x:random(-500,500),y:random(-500,500),z:random(-500,500),scale:.1,delay:.02*t,yoyo:!0,repeat:-1,repeatDelay:10})});
